@@ -25,16 +25,16 @@ body:
   - type: textarea
     id: user_story
     attributes:
-      label: "👤 유저 스토리 및 목적"
-      placeholder: "사용자가 무엇을 얻을 수 있는지 작성해주세요. (예: 사용자는 회원가입을 통해 본인의 데이터를 저장할 수 있다.)"
+      label: "구현한 기능 및 수정사항"
+      placeholder: "구현한 기능 및 수정사항을 상세히 작성해주세요"
     validations:
       required: true
 
   - type: textarea
     id: technical_spec
     attributes:
-      label: "🛠️ 기술 명세 및 요구사항"
-      placeholder: "- DB 설계 변경 내용\n- 사용될 프레임워크 (Spring Boot, React 등)\n- 핵심 로직"
+      label: "🛠️ 기술 명세"
+      placeholder: "- DB 설계 변경 내용, 핵심 로직 (기능)"
     validations:
       required: true
 
