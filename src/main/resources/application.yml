@@ -1,5 +1,9 @@
 server:
   port: 10000
+  servlet:
+    session:
+      tracking-modes: cookie
+      timeout: 30m
 
 spring:
   datasource:
@@ -7,7 +11,6 @@ spring:
     url: jdbc:mysql://localhost:3306/CandM?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
     username: CandM
     password: 1234
-
 
 mybatis:
   configuration:
